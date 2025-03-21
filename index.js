@@ -1,6 +1,8 @@
 //projeto
 
-switch (1000){
+let heroi = 1000
+
+switch (heroi){
     case 1000:
         console.log('ferro')
 break
@@ -23,5 +25,7 @@ break
         console.log('imortal')
 break
     default: 
-        console.log (radiante)
+        console.log(radiante)
 }
+
+console.log("o heroi jujuba está no nivel de: " + heroi+ "xp")
